@@ -2649,6 +2649,11 @@ input[type="search"] {
   font-weight: normal;
   cursor: pointer;
 }
+.swc-blue-bg {
+   /*background-color: #20267D;*/
+   /* svg colour is slightly different? */
+    background: #2b3990;
+}
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
