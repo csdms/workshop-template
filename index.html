@@ -28,24 +28,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   And run 'tools/check' *before* committing to make sure that changes are good.
 -->
 
-<!--
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
--->
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
 
 
 <h2 id="general">General Information</h2>
@@ -59,14 +41,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>
   <a href="https://csdms.colorado.edu">CSDMS</a>'s goal
   is to help geoscientists use computational modeling to understand Earth surface dynamics.  
-  This hands-on workshop will cover basic
-  concepts and tools, including program design, version control, data
-  management, and task automation.  Participants will be encouraged to
+  This hands-on workshop, inspired by bootcamps run by <a href="https://software-carpentry.org">Software Carpentry</a>,  will cover basic
+  concepts and tools for scientific programming.  Participants will be encouraged to
   help one another and to apply what they have learned to their own
   research problems.
 </p>
 <p>
-The CDSMS workshops are inspired by the <a href="https://software-carpentry.org">Software Carpentry</a> bootcamps.
 These materials are modified from those used by Software Carpentry.
 </p>
 <p align="center">
@@ -85,7 +65,7 @@ These materials are modified from those used by Software Carpentry.
 -->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at graduate students and other scientists.
   <strong>You don't need to have any previous knowledge of the tools that will
     be presented at the workshop.</strong>
 </p>
