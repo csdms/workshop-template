@@ -3,7 +3,7 @@
 #------------------------------------------------------------
 
 # Which carpentry is this ("swc" or "dc" or "csdms")?
-carpentry: "csdms"
+carpentry: "swc"
 
 # Overall title for pages.
 title: "Workshop Title"
