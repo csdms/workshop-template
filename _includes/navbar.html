@@ -13,7 +13,7 @@
       <a href="{{ site.csdms_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ site.github.url | replace_first: 'http:', 'https:' }}/assets/img/CSDMS_banner.png" alt="CSDMS logo" />
       </a>
-      {% if page.carpentry == "swc" %}
+      {% elif page.carpentry == "swc" %}
       <a href="{{ site.swc_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ site.github.url | replace_first: 'http:', 'https:' }}/assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
       </a>
